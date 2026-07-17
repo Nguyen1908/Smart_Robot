@@ -1,0 +1,158 @@
+{
+   "appDesc": {
+      "message": "Ne vesztegesd az időd beleegyezésekkel. A FastForward automatikusan kikerüli a bosszantó link-rövidítőket."
+   },
+   "beforeNavigate": {
+      "message": "Már majdnem a célodon vagy"
+   },
+   "beforeNavigateDestination": {
+      "message": "A cél hely: %"
+   },
+   "beforeNavigateInstant": {
+      "message": "Át leszel irányítva ide: %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Egyből vagy x másodperc múlva legyél átirányítva?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Automatikusan át leszel irányítva % másodperc múlva."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Automatikusan át leszel irányítva 1 másodperc múlva."
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Mindenesetre, ha most lépsz át, fel fogják ismerni az FastForward-t."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "% másodperc múlva nem fogják észrevenni."
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Nem fogják észrevenni 1 másodperc múlva."
+   },
+   "blockedSubtitle": {
+      "message": "Nem szeretnéd hogy az FastForward megakadályozza a rossz emberektől hogy hozzáférhessenek az IP-d hez?"
+   },
+   "blockedTitle": {
+      "message": "A FastForward megtiltotta, hogy az IP-t naplózható legyen."
+   },
+   "bypassCounter": {
+      "message": "FastForward már megkerülte az Ön számára szánt % webhelyeket."
+   },
+   "cancel": {
+      "message": "Mégsem."
+   },
+   "changelog": {
+      "message": "Változási napló\n"
+   },
+   "contributors": {
+      "message": "Hozzájárulók"
+   },
+   "crowdBypassed": {
+      "message": "Talán nem kell várakoznod!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Ez helytelen?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Más FastForward felhasználók már vártak helyetted, és szerintük ez a(z) % webhelyhez vezet"
+   },
+   "crowdBypassedOptions": {
+      "message": "Egyből vagy x másodperc múlva legyél átirányítva?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Az oldal egy új lapon lesz megnyitva % másodperc múlva."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Az oldal egy új lapon lesz megnyitva 1 másodperc múlva."
+   },
+   "crowdCloseTimer": {
+      "message": "Az oldal bezárul % másodperc múlva."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "Az oldal be fog zárulni 1 másodperc múlva."
+   },
+   "crowdDisabled": {
+      "message": "Ez a weboldal megkerülhető a Crowd Bypass funkcióval, amit a beállításokban tudsz engedélyezni."
+   },
+   "crowdWait": {
+      "message": "Sajnos, te vagy az első aki erre a linkre kattintott, emiatt sajnos az oldal nem megkerülhető a Crowd Bypass segítségével. Ha megvárod a linket, a többi FastForward felhasználónak már nem kell. "
+   },
+   "definitionsVersion": {
+      "message": "Kitérő meghatározások"
+   },
+   "faq": {
+      "message": "Gyakran Ismételt Kérdések (GYIK)"
+   },
+   "firstrunNoScript": {
+      "message": "Azonban úgy tünik hogy te NoScript-tett használsz vagy hasonlót, amivel a FastForward nem kompatibilis."
+   },
+   "firstrunTitle": {
+      "message": "Köszönjük, hogy telepítetted a FastForward-t!"
+   },
+   "infoFileHoster": {
+      "message": "Sajnos a letöltő szerver ellenőrzi, hogy tényleg várt-e, mielőtt elkezdené letölteni a fájlt."
+   },
+   "infoLinkvertise": {
+      "message": "Mi nem térhetünk ki ez a website ellen, de letárgyaltuk a legidegesítőbb lépéseinek eltávolítását."
+   },
+   "infoOutdated": {
+      "message": "Ez az oldal csak az FastForward egy újabb verziójával kerülhető meg."
+   },
+   "options": {
+      "message": "Beállítások"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "IP-loggerek blokkolása, ha nem kerülhetők ki."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Zárja be a tömegből származő célokat % másodperccel miután meglátogattad"
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Nyisd meg a tömegből származó célokat új ablakban % másodperc elteltével."
+   },
+   "optionsCrowdBypass": {
+      "message": "Tömeg kitéreő: Add és vedd el a kitérhetetlen rövidítő oldalak céljait."
+   },
+   "optionsEnabled": {
+      "message": "Engedélyezze a weboldal megkerülését."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Azonnal tegyél a nyomozó célokhoz."
+   },
+   "optionsLink": {
+      "message": "Változtassa meg az FastForward beállításait."
+   },
+   "optionsNavigationDelay": {
+      "message": "Tegyél a célhoz % másdoperc elteltével"
+   },
+   "optionsTrackerBypass": {
+      "message": "Nyomkövetők kikerülése (például a bit.ly és t.co) az Apimon.de használatával."
+   },
+   "optionsUserscripts": {
+      "message": "Egyéni megkerülések"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Ez egy fejlett szolgáltatás a fejlesztők számára, hogy saját szkripteket készítsenek a webhelyek megkerülésére. Miután tökéletesítették őket, elküldhetők a GitHub-on, hogy hozzáadják az FastForward-hoz, hogy mindenki számára elérhetőek legyenek."
+   },
+   "privacyPolicy": {
+      "message": "Adatvédelmi irányelvek"
+   },
+   "support": {
+      "message": "Hozzájárulás FastForward számára."
+   },
+   "update": {
+      "message": "Frissítések keresése\n"
+   },
+   "updateNo": {
+      "message": "A kitérő meghatározások naprakészek."
+   },
+   "updateYes": {
+      "message": "Sikeresen letöltőtt kitérő meghatározások."
+   },
+   "updating": {
+      "message": "A kitérő meghatározások letöltése.."
+   },
+   "version": {
+      "message": "Verzió"
+   }
+}

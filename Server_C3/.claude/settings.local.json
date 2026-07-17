@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__tavily-remote-mcp__tavily_search",
+      "Bash(dir \"c:\\\\Users\\\\anhtr\\\\Desktop\\\\testTTS\" /b)"
+    ]
+  }
+}

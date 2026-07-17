@@ -1,0 +1,5 @@
+$platformPrefix: qb;
+$baseURL: 'chrome-extension://__MSG_@@extension_id__/';
+@use './overrides';
+
+@import '~@languagetooler-gmbh/languagetool-script/library-styles/styles.scss';

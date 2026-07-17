@@ -1,0 +1,117 @@
+{
+   "action": {
+      "default_icon": "assets/images/logo.png",
+      "default_popup": "popup.html",
+      "default_title": "QuillBot"
+   },
+   "background": {
+      "service_worker": "quillbot-sw.js"
+   },
+   "commands": {
+      "paraphrase": {
+         "description": "Invoke the paraphraser-saga on the text"
+      }
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "main-world-injection.js" ],
+      "matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "run_at": "document_start",
+      "world": "MAIN"
+   }, {
+      "css": [  ],
+      "js": [ "content-gdocs-pre.js" ],
+      "matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "assets/css/quillbot-fonts.css", "assets/css/gdocs-overrides.css" ],
+      "js": [ "content-gdocs.js" ],
+      "matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "content-gpt-humanizer.js" ],
+      "matches": [ "https://chatgpt.com/*", "https://gemini.google.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/css/quillbot-fonts.css" ],
+      "exclude_matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "js": [ "quillbot-content.js" ],
+      "matches": [ "*://*.wordpress.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "assets/css/quillbot-fonts.css" ],
+      "exclude_matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "js": [ "quillbot-content.js" ],
+      "matches": [ "*://mail.google.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/css/quillbot-fonts.css" ],
+      "exclude_matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*", "*://mail.google.com/*", "*://*.wordpress.com/*" ],
+      "js": [ "detect-editors.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/css/styles.css" ],
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "ai-chat.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "externally_connectable": {
+      "matches": [ "https://*.coursehero.com/*", "https://*.quillbot.com/*", "https://*.quillbot.dev/*", "https://quillbot.com/*", "https://quillbot.dev/*" ]
+   },
+   "host_permissions": [ "*://*/*", "https://quillbot.com/", "https://quillbot.com/*" ],
+   "icons": {
+      "128": "assets/images/logo-128.png",
+      "16": "assets/images/logo-16.png",
+      "48": "assets/images/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzqHwxqha1TyZD8epSO86qnZA422kcOfr6nrCLPGfmznPPT3DciDLPE5PJf+kmPmKSA5+wzhxSwXIgS6vPtfdEcEphDhcekGqOC5wjxK22M8DB5klCt73VEzzuDibvhjHjSZVSErlpztHRNNccbrEgYnOA8V12mDGQuDkJ0lUATbdPaxyZCc/Lj7q0pc7nbOmKRHNNyq73EK+bjM2CbY69Z8zRK29dGCEfkgp8eoPEI92wRxeMcGjj5B0zD+Mxn9O95sdo7qQkO3spaKjyv/hAVHV8LVZW4zp3yLd7dZUPuXAElMP1j7GCCRGzfrVlO3uxLqRMBVHgBoSZKhwn9ym0QIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "__MSG_extensionName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "alarms", "cookies", "storage", "activeTab", "contextMenus", "notifications", "scripting", "sidePanel" ],
+   "side_panel": {
+      "default_path": "sidePanel.html"
+   },
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "4.71.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "quillClassic.js" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "assets/fonts/*", "assets/css/*", "assets/images/*", "assets/emojibase-data/*" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "injection.js" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "content.js" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "executor.js" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "quillbot-content.js", "/content/styles/*", "toolboxjs.js", "toolbox/*.html" ]
+   } ]
+}

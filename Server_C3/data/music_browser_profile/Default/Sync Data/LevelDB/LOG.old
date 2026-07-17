@@ -1,0 +1,6 @@
+2026/03/30-00:50:29.374 68a0 Reusing MANIFEST C:\Users\anhtr\Desktop\testTTS\data\music_browser_profile\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/03/30-00:50:29.375 68a0 Recovering log #3
+2026/03/30-00:50:29.377 68a0 Reusing old log C:\Users\anhtr\Desktop\testTTS\data\music_browser_profile\Default\Sync Data\LevelDB/000003.log 
+2026/03/30-00:50:35.668 5088 Level-0 table #5: started
+2026/03/30-00:50:35.671 5088 Level-0 table #5: 155038 bytes OK
+2026/03/30-00:50:35.673 5088 Delete type=0 #3

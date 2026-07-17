@@ -1,0 +1,158 @@
+{
+   "appDesc": {
+      "message": "Ärge raisake oma aega järgimisega. Universaalne ümbersõit möödab tüütuid linkide lühendajaid."
+   },
+   "beforeNavigate": {
+      "message": "Olete peaaegu sihtkohta jõudnud."
+   },
+   "beforeNavigateDestination": {
+      "message": "Sinu sihtkoht on %"
+   },
+   "beforeNavigateInstant": {
+      "message": "Sind suunatakse %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Kas soovite, et teid suunataks kohe või mõne sekundi pärast?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Teid suunatakse automaatselt ümber % sekundi jooksul."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Teid suunatakse automaatselt ümber ühe sekundi jooksul."
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Kui aga nüüd lähete, avastavad nad FastForward-i."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "Teid ei tuvastata enam % sekundi jooksul."
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Teid ei tuvastata enam ühe sekundi jooksul."
+   },
+   "blockedSubtitle": {
+      "message": "Kas te ei soovi, et FastForward takistaks halbadel osalejatel teie IP-d saada?"
+   },
+   "blockedTitle": {
+      "message": "FastForward takistas teie IP logimist."
+   },
+   "bypassCounter": {
+      "message": "FastForward-i välditud saidid: %."
+   },
+   "cancel": {
+      "message": "Loobu."
+   },
+   "changelog": {
+      "message": "Muudatuste logi"
+   },
+   "contributors": {
+      "message": "Toetajad"
+   },
+   "crowdBypassed": {
+      "message": "Võimalik, et ei pea ootama!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Kas see polnud õige?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Teised FastForwardi kasutajad on juba oodanud sinu järgi ning andnud teada et see viib %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Kas soovite, et see avataks kohe või x s pärast uuel vahelehel?"
+   },
+   "crowdBypassedTimer": {
+      "message": "See avatakse uuel vahekaardil % sekundi pärast."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "See avatakse uuel vahekaardil 1 sekundi pärast."
+   },
+   "crowdCloseTimer": {
+      "message": "See vahekaart sulgub % sekundi pärast."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "See vahekaart suletakse ühe sekundiga."
+   },
+   "crowdDisabled": {
+      "message": "Sellest saidist mööda saamiseks rakendatakse kohandatud meetodit, mille olete seadetes keelanud."
+   },
+   "crowdWait": {
+      "message": "Kahjuks olete selle lingi kaudu esimestena kokku puutunud, kuid pärast teie ootust ei pea teised FastForward'i kasutajad enam ootama."
+   },
+   "definitionsVersion": {
+      "message": "\nMõistete ümbersõit"
+   },
+   "faq": {
+      "message": "Korduma Kippuvad Küsimused"
+   },
+   "firstrunNoScript": {
+      "message": "\nTundub, et kasutate siiski NoScripti või muud sarnast, millega FastForward ei ühildu."
+   },
+   "firstrunTitle": {
+      "message": "\nTäname universaalse ümbersõidu FastForward!"
+   },
+   "infoFileHoster": {
+      "message": "Kahjuks tagab allalaadimisserver, et olete enne faili allalaadimist oodanud ,et lubada teil faili allalaadimine."
+   },
+   "infoLinkvertise": {
+      "message": "Me ei tohi sellest veebisaidist mööda hiilida, kuid oleme pidanud läbirääkimisi nende kõige tüütumate sammude eemaldamise üle."
+   },
+   "infoOutdated": {
+      "message": "Sellest veebisaidist möödumiseks on FastForward uuem versioon."
+   },
+   "options": {
+      "message": "Valikud"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Blokeerige IP-logerid, kui neist ei saa mööda."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Sulgege vahekaart, mis sisaldab rahvahulga päritolu sihtkohta pärast % sek möödumist selle külastamisest."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Pärast % sekundi möödumist avage uuel vahelehel rahvahulgaga sihtkohad."
+   },
+   "optionsCrowdBypass": {
+      "message": "Saate saata ja vastu võtta sihtkohti, millest ei saa mööda minna."
+   },
+   "optionsEnabled": {
+      "message": "Veebisaidi möödasõitude lubamine."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Viige mind kohe jälitajate sihtkohtadesse."
+   },
+   "optionsLink": {
+      "message": "Muutke FastForward valikuid."
+   },
+   "optionsNavigationDelay": {
+      "message": "Minge sihtkohta % sek pärast."
+   },
+   "optionsTrackerBypass": {
+      "message": "Bypass jälgijad (näiteks bit.ly ja t.co), kasutades Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Kohandatud ümbersõidud"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "See on täiustatud funktsioon, mille abil arendajad saavad luua oma skripte saitide indekseerimiseks. Kui silumine on lõpule jõudnud, saab nad saata GitHubisse, et lisada need FastForwardisse, nii et need oleksid kõigile kättesaadavad."
+   },
+   "privacyPolicy": {
+      "message": "Privaatsusreeglid"
+   },
+   "support": {
+      "message": "Panustage FastForward-i."
+   },
+   "update": {
+      "message": "Uuenduste kontrollimine"
+   },
+   "updateNo": {
+      "message": "Süstimisskript on juba ajakohane."
+   },
+   "updateYes": {
+      "message": "Süstimisskripti värskendamine õnnestus!"
+   },
+   "updating": {
+      "message": "Indekseerimise määratluste laadimine..."
+   },
+   "version": {
+      "message": "Versioon"
+   }
+}

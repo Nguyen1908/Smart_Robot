@@ -1,0 +1,23 @@
+.ext-modernkit-flash-player-container {
+    display: block;
+    visibility: visible !important;
+    
+    overflow: hidden;
+    
+    -webkit-user-select: none;
+    user-select: none;
+    
+    /*border-radius: 5px;*/
+}
+
+.ext-modernkit-flash-player-frame {
+    display: block;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    
+    z-index: 5000; /* Be above other content (to fix compat with other extensions) */
+    position: relative; /* Needed for z-index to apply */
+}

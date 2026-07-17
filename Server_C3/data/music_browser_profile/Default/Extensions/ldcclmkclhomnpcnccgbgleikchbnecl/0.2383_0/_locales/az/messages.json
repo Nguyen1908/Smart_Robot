@@ -1,0 +1,89 @@
+{
+   "appDesc": {
+      "message": "Vaxtınızı uyğunlaşdırmaya xərcləməyin. FastForward, zəhlətökən bağlantı qısaldıcılarını ötürür."
+   },
+   "beforeNavigate": {
+      "message": "Demək olar ki, təyinat yerindəsiniz."
+   },
+   "beforeNavigateDestination": {
+      "message": "Təyinat yeri %"
+   },
+   "beforeNavigateTimer": {
+      "message": "% saniyə ərzində avtomatik yönləndiriləcəksiniz."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "1 saniyə ərzində avtomatik yönləndiriləcəksiniz."
+   },
+   "blockedSubtitle": {
+      "message": "FastForward-ın, pisniyyətli insanların IP ünvanınızı oğurlamasının qarşısını almasını istəmirsiniz?"
+   },
+   "blockedTitle": {
+      "message": "FastForward, IP ünvanların qeydlərə əlavə edilməsinin qarşısı aldı."
+   },
+   "changelog": {
+      "message": "Dəyişiklik qeydi"
+   },
+   "crowdBypassed": {
+      "message": "Gözləməyinizə ehtiyac yoxdur!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Bu doğru deyil?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Digər FastForward istifadəçiləri artıq sizi gözlədilər və bunun % a çatdığı bildirildi"
+   },
+   "crowdBypassedOptions": {
+      "message": "Bunun indi ya x saniyə sonra yeni bir vərəqdə açılmasını istəyirsiniz?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Bu, % saniyə ərzində yeni bir vərəqdə açılacaq."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Bu, 1 saniyə ərzində yeni bir vərəq açılacaq."
+   },
+   "crowdWait": {
+      "message": "Təəssüf ki, bu bağlantı ilə qarşılaşan ilk sizsiniz, ancaq siz gözlədikdən sonra, digər FastForward istifadəçilərinin buna ehtiyacı olmayacaq."
+   },
+   "definitionsVersion": {
+      "message": "Bypass tərifləri"
+   },
+   "faq": {
+      "message": "Tez-tez Soruşulan Suallar (FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "Buna baxmayaraq, FastForward ilə uyğunlaşmayan NoScript və ya oxşarını istifadə edirsiniz."
+   },
+   "firstrunTitle": {
+      "message": "FastForward quraşdırdığınız üçün təşəkkürlər!"
+   },
+   "options": {
+      "message": "Seçimlər"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Ötürə bilməsə, IP qeydlərini əngəllə."
+   },
+   "optionsCrowdBypass": {
+      "message": "Ötürülə bilməyən qısaldıcıların yerlərini verin və aparın."
+   },
+   "optionsEnabled": {
+      "message": "Veb saytlarının ötürülməsini fəallaşdır."
+   },
+   "optionsLink": {
+      "message": "FastForward seçimlərini dəyişdirin."
+   },
+   "optionsUserscripts": {
+      "message": "Özəl Bypass-lar"
+   },
+   "privacyPolicy": {
+      "message": "Gizlilik Siyasəti"
+   },
+   "support": {
+      "message": "FastForward-ı Dəstəkləyin."
+   },
+   "update": {
+      "message": "Yeniləmələri yoxla"
+   },
+   "version": {
+      "message": "Versiya"
+   }
+}

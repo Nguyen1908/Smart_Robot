@@ -1,0 +1,158 @@
+{
+   "appDesc": {
+      "message": "Nie marnuj czasu na przestrzeganie przepisów, Uniwersalny Bypass automatycznie pomija irytujące skróty linkowe."
+   },
+   "beforeNavigate": {
+      "message": "Jesteś prawie w miejscu docelowym."
+   },
+   "beforeNavigateDestination": {
+      "message": "Twoje miejsce docelowe jest %"
+   },
+   "beforeNavigateInstant": {
+      "message": "Trwa nawigacja do %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Chcesz być przekierowywany natychmiastowo, czy za x sekund?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Zostaniesz automatycznie przekierowany za % sekund."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Zostaniesz przekierowany automatycznie za 1 sekundę."
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Jeżeli zostaniesz przekierowany od razu, strona wykryje, że używasz Uniwersalnego Obejścia."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "Nie będziesz wykrywany za % sekund."
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Nie będziesz wykrywany za 1 sekundę."
+   },
+   "blockedSubtitle": {
+      "message": "Nie chcesz, aby Uniwersalne Obejście przeszkadzało złym aktorom uzyskanie twojego adresu IP?"
+   },
+   "blockedTitle": {
+      "message": "Uniwersalne obejście zapobiegło zarejestrowanie twojego IP."
+   },
+   "bypassCounter": {
+      "message": "FastForward ominął dla Ciebie % stron."
+   },
+   "cancel": {
+      "message": "Anuluj"
+   },
+   "changelog": {
+      "message": "Dziennik zmian"
+   },
+   "contributors": {
+      "message": "Wkładcy"
+   },
+   "crowdBypassed": {
+      "message": "Nie musisz już czekać!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Czy to było nieprawidłowe?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Inni użytkownicy Uniwersalnego obejścia czekali za ciebie i zgłosili, że prowadzi to do %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Czy chcesz to otworzyć w nowej karcie natychmiast, czy w ciągu x sekund?"
+   },
+   "crowdBypassedTimer": {
+      "message": "To będzie otwarte w nowym oknie za % sekund."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "To będzie otwarte w nowym oknie za 1 sekundę."
+   },
+   "crowdCloseTimer": {
+      "message": "Ta karta zostanie zamknięta za % sekund."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "Ta karta zostanie zamknięta za 1 sekundę."
+   },
+   "crowdDisabled": {
+      "message": "Ta strona jest ominięta przez crowd bypass, którą masz wyłączoną w ustawieniach."
+   },
+   "crowdWait": {
+      "message": "Ups... wydaje się, że jesteś pierwszym, który klika w ten link, ale po tym jak Ty zaczekasz, inni użytkownicy FastForward nie będą musieli już czekać, ale w tym przypadku także ty nie będziesz musiał czekać wchodząc następnym razem w ten link."
+   },
+   "definitionsVersion": {
+      "message": "Definicje obejścia"
+   },
+   "faq": {
+      "message": "Najczęściej zadawane pytania (FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "Wygląda na to, że używasz NoScript lub czegoś podobnego co powoduje, że FastForward nie jest kompatybilny."
+   },
+   "firstrunTitle": {
+      "message": "Dziękujemy za instalację FastForward!"
+   },
+   "infoFileHoster": {
+      "message": "Niestety, serwer pobierania upewni się, czy czekałeś, zanim pozwoli ci pobrać ten plik."
+   },
+   "infoLinkvertise": {
+      "message": "Nie możemy obejść tej strony, jednakże wynegocjowaliśmy usunięcie najbardziej irytujących kroków."
+   },
+   "infoOutdated": {
+      "message": "Ta strona jest omijana przez nowszą wersję FastForward."
+   },
+   "options": {
+      "message": "Opcje"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Zablokuj rejestratory IP,  jeśli nie można ich ominąć."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Zamknij zakładkę zawierająca crowd-sourcing miejsca docelowego po % sekundach jej wizyty."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Otwórz crowd-sourcing w nowej karcie po % sekundach. (0 = natychmiast.)"
+   },
+   "optionsCrowdBypass": {
+      "message": "Podaj i wykorzystaj miejsca, których nie możesz ominąć."
+   },
+   "optionsEnabled": {
+      "message": "Włącz obejście stron."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Natychmiast zabieraj mnie do miejsc docelowych."
+   },
+   "optionsLink": {
+      "message": "Zmień opcje Uniwersalnego Obejścia."
+   },
+   "optionsNavigationDelay": {
+      "message": "Zabierz mnie do miejsc docelowych po % sekund(ach)."
+   },
+   "optionsTrackerBypass": {
+      "message": "Omiń trackery (takie jak bit.ly i t.co) za pomocą Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Niestandardowe Obejścia"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Jest to zaawansowana funkcja dla programistów do tworzenia własnych skryptów do omijania witryn. Po udoskonaleniu można je przesłać na GitHub i dodać do FastForward, więc są one dostępne dla wszystkich."
+   },
+   "privacyPolicy": {
+      "message": "Polityka Prywatności"
+   },
+   "support": {
+      "message": "Wesprzyj Uniwersalne Obejście."
+   },
+   "update": {
+      "message": "Sprawdź dostępność aktualizacji"
+   },
+   "updateNo": {
+      "message": "Definicja omijania jest aktualna."
+   },
+   "updateYes": {
+      "message": "Pomyślnie pobrano definicje obejścia."
+   },
+   "updating": {
+      "message": "Pobieranie definicji FastForward'a..."
+   },
+   "version": {
+      "message": "Wersja"
+   }
+}

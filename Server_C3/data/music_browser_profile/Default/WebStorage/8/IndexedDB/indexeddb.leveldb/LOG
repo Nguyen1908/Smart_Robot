@@ -1,0 +1,17 @@
+2026/03/30-00:23:57.161 21a0 Creating DB C:\Users\anhtr\Desktop\testTTS\data\music_browser_profile\Default\WebStorage\8\IndexedDB\indexeddb.leveldb since it was missing.
+2026/03/30-00:23:57.166 21a0 Reusing MANIFEST C:\Users\anhtr\Desktop\testTTS\data\music_browser_profile\Default\WebStorage\8\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2026/03/30-00:23:57.563 6cc0 Level-0 table #5: started
+2026/03/30-00:23:57.566 6cc0 Level-0 table #5: 3399 bytes OK
+2026/03/30-00:23:57.569 6cc0 Delete type=0 #3
+2026/03/30-00:23:57.569 5524 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/03/30-00:23:58.202 5384 Level-0 table #7: started
+2026/03/30-00:23:58.206 5384 Level-0 table #7: 762 bytes OK
+2026/03/30-00:23:58.210 5384 Delete type=0 #4
+2026/03/30-00:23:58.210 6cc0 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/03/30-00:23:58.211 6cc0 Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 246 : 0
+2026/03/30-00:23:58.211 6cc0 Compacting 1@1 + 1@2 files
+2026/03/30-00:23:58.213 6cc0 Generated table #8@1: 21 keys, 739 bytes
+2026/03/30-00:23:58.213 6cc0 Compacted 1@1 + 1@2 files => 739 bytes
+2026/03/30-00:23:58.215 6cc0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/30-00:23:58.216 6cc0 Delete type=2 #7
+2026/03/30-00:23:58.216 6cc0 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 246 : 0 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

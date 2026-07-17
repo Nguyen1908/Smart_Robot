@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+html {
+    font-family: sans-serif;
+}
+
+html,body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+#wrapper {
+    display: grid;
+    height: 100%;
+    font-size: 1.4em;
+    
+    color: #646464;
+}
+
+#wrapper p {
+    margin: 0.5em 0;
+}
+
+#wrapper .center {
+    margin: auto;
+    text-align: center;
+}
+
+h2, h3 {
+    margin: 0.5em auto;
+}
+#wrapper .nomargin {
+    margin: 0 auto;
+}
+#upgrade-logo {
+    cursor: pointer;
+}
+
+.cta-button {
+    box-shadow: 0px 1px 4px 0px #aaa;
+
+    border-radius: 6px;
+    padding: 0.5em 2em;
+
+    color: #fff;
+    font-size: 1.125em;
+
+    font-weight: 500;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.65em;
+
+    display: inline-block;
+    margin: 1em 0;
+    
+    border: none;
+    font-size: 1.08em;
+    cursor: pointer;
+}
+.cta-button:hover {
+    text-decoration: none;
+}
+.cta-button {
+    background: #22C55E;
+}
+.cta-button:hover,
+.cta-button.disabled {
+    background: #16A34A;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+    <div class="center">
+        <!-- img width/height attributes added to prevent content jumping -->
+        <img id="upgrade-logo" class="icon" width="96" height="96" src="/icons/logo192.png">
+        <h2>You've run out of free plays.</h2>
+        <h3 class="nomargin">Get more plays with Premium</h3>
+        <p class="nomargin">or wait one week for 20 more free plays.</p>
+        <button id="upgrade-btn" class="cta-button">Upgrade to Premium</button>
+        <p class="nomargin">Premium also includes autoplay and local file player.</p>
+    </div>
+</div>
+<script src="/upgrade.js"></script>
+</body>
+</html>

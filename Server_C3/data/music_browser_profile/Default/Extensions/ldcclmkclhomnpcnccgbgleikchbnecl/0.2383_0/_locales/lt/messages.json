@@ -1,0 +1,158 @@
+{
+   "appDesc": {
+      "message": "Negaiškite laiko laikydamiesi reikalavimų. Universalus aplinkkelis apeina erzinančius jungčių trumpiklius."
+   },
+   "beforeNavigate": {
+      "message": "Jūs beveik pasiekėte savo tikslą."
+   },
+   "beforeNavigateDestination": {
+      "message": "Jūsų tikslas yra %"
+   },
+   "beforeNavigateInstant": {
+      "message": "Jūs busite perkeltas į %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Ar norite būti nukreipti akimirksniu ar per x sekundes?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Jūs busite automatiškai nukreiptas už % sekundžių."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Jūs busite automatiškai nukreiptas už 1 sekundės."
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Jeigu dabar pereisite, \"FastForward\" bus aptiktas."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "Jūs nebebūsite aptinkamas už % sekundžių."
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Jūs nebebūsite aptinkamas už 1 sekundes."
+   },
+   "blockedSubtitle": {
+      "message": "Nenorite, kad \"FastForward\" užkirstų kelią sukčiam gauti jūsų IP adresą?"
+   },
+   "blockedTitle": {
+      "message": "Universalus Perėjimas neleido šiam puslapiui įrašyti jūsų IP adreso."
+   },
+   "bypassCounter": {
+      "message": "FastForward praleido % puslapių jums."
+   },
+   "cancel": {
+      "message": "Atšaukti."
+   },
+   "changelog": {
+      "message": "Pokyčių sąrašas"
+   },
+   "contributors": {
+      "message": "Pagalbininkai"
+   },
+   "crowdBypassed": {
+      "message": "Jums turbūt nereikės laukti!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Ar šis veiksmas buvo klaidingas?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Kiti \"FastForward\" vartotojai jau buvo laukę šiame saite ir pranešė, kad tai veda į %."
+   },
+   "crowdBypassedOptions": {
+      "message": "Ar norite, kad tai būtų atidaryta naujame skirtuke iškart ar per x sekundes?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Šis turinys bus atidarytas naujoje kortelėje už % sekundžių."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Šis turinys bus atidarytas naujoje kortelėje už 1 sekundes."
+   },
+   "crowdCloseTimer": {
+      "message": "Ši kortelė užsidarys už % sekundžių."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "Ši kortelė užsidarys už 1 sekundės."
+   },
+   "crowdDisabled": {
+      "message": "Šio saito tikslas yra pasidalintas, ir ji galima apeiti naudojant \"crowd bypass\", kuris įjungiamas nustatymuose."
+   },
+   "crowdWait": {
+      "message": "Deja, jūs esate pirmasis susidūręs su šiuo saitu. Jums palaukus, kitiems \"FastForward\" vartotojams nereikės daugiau laukti."
+   },
+   "definitionsVersion": {
+      "message": "Praleidimo apibrėžimai"
+   },
+   "faq": {
+      "message": "Dažnai užduodami klausimai"
+   },
+   "firstrunNoScript": {
+      "message": "Tačiau panašu, kad naudojate „NoScript“ ar panašius, su kuriais „FastForward“ nesuderinamas."
+   },
+   "firstrunTitle": {
+      "message": "Dėkojame, kad įdiegėte „FastForward“!"
+   },
+   "infoFileHoster": {
+      "message": "Deja, parsisiuntimo serveris turės užgarantuoti, kad jūs palaukėte, prieš leisdamas jums parsisiųsti failą."
+   },
+   "infoLinkvertise": {
+      "message": "Mes negalime apeiti šios svetainės, bet su jos kūrėjais yra susitarta, kad jie pašalins dauguma įkyrių žingsnių."
+   },
+   "infoOutdated": {
+      "message": "Ši svetainė gali būti apeita naudojant tik naujesnės versijos Universalų Perėjimą."
+   },
+   "options": {
+      "message": "Nustatymai"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Blokuoti \"IP loggers\", jei jų neįmanoma apeiti."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Uždaryti skirtuką, kuriame yra minios šaltinis, aplankius % s."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Atidarykite minios šaltinius naujame skirtuke po % sekundė(s)."
+   },
+   "optionsCrowdBypass": {
+      "message": "Minios praleidimas: nurodykite ir pasiimkite neišvengiamų trumpiklių paskirties vietas."
+   },
+   "optionsEnabled": {
+      "message": "Įjungti nuorodų apėjimą."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Akimirksniu nuveskite mane į sekėjų vietas."
+   },
+   "optionsLink": {
+      "message": "Pakeisti Universalus apėjimo nustatymus."
+   },
+   "optionsNavigationDelay": {
+      "message": "Nuveskite mane į paskirtį po % sekundžių"
+   },
+   "optionsTrackerBypass": {
+      "message": "Apeiti sekėjus (tokius kaip bit.ly ir t.co) naudojant Apimon.de"
+   },
+   "optionsUserscripts": {
+      "message": "Pasirinktinas perėjimas"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Tai yra pažangi funkcija, skirta kūrėjams kurti savo scenarijus, norint apeiti svetaines. Kai jie bus patobulinti, juos bus galima pateikti „GitHub“ ir pridėti prie visuotinio aplinkkelio, kad jie būtų prieinami visiems."
+   },
+   "privacyPolicy": {
+      "message": "Privatumo politika"
+   },
+   "support": {
+      "message": "Prisidėti prie Universalus apėjimo."
+   },
+   "update": {
+      "message": "Tikrinti dėl atnaujinimų"
+   },
+   "updateNo": {
+      "message": "Praleidimo apibrėžimai yra naujausios versijos."
+   },
+   "updateYes": {
+      "message": "Sėkmingai atsiųsti praleidimo apibrėžimai."
+   },
+   "updating": {
+      "message": "Atsiunčiami praleidimo apibrėžimai..."
+   },
+   "version": {
+      "message": "Versija"
+   }
+}

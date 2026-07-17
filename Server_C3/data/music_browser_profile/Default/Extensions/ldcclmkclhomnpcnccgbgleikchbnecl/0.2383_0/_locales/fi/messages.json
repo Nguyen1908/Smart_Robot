@@ -1,0 +1,158 @@
+{
+   "appDesc": {
+      "message": "Älä tuhlaa aikaa odottamiseen ja mainosten katseluun! FastForward skippaa automaattisesti ärsyttävät linkin lyhentäjät."
+   },
+   "beforeNavigate": {
+      "message": "Olet melkein määränpäässäsi."
+   },
+   "beforeNavigateDestination": {
+      "message": "Sinun määränpääsi on %."
+   },
+   "beforeNavigateInstant": {
+      "message": "Sinua ohjataan nettisivulle %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Haluatko, että sinut uudelleenohjataan heti tai x sekunnissa?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Sinut uudelleenohjataan automaattisesti % sekuntin päästä."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Sinut uudelleenohjataan automaattisesti yhdessä sekunnissa."
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Jos kuitenkin navigoit nyt, he havaitsevat FastForwardin."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "Sinua ei enää havaita % sekunnin kuluttua."
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Sinua ei enää havaita sekuntin kuluttua."
+   },
+   "blockedSubtitle": {
+      "message": "Etkö halua FastForwardia estämästä huonoja yrityksiä saamasta IP-osoitettasi?"
+   },
+   "blockedTitle": {
+      "message": "FastForward esti IP-osoitteesi jäljittämisen."
+   },
+   "bypassCounter": {
+      "message": "FastForward on ohittanut % sivuja sinulle."
+   },
+   "cancel": {
+      "message": "Peruuta."
+   },
+   "changelog": {
+      "message": "Muutosloki"
+   },
+   "contributors": {
+      "message": "Osallistujat"
+   },
+   "crowdBypassed": {
+      "message": "Sinun ei välttämättä tarvitse odottaa!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Eikö tämä ollut oikea?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Toiset FastForwardin käyttäjät ovat entuudestaan odottaneet sinulle ja ilmoittaneet, että tämä vie %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Haluatko, että tämä avataan heti vai x sekunnin päästä?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Tämä tullaan avaamaan uudessa välilehdessä % sekunnin kuluttua."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Tämä tullaan avaamaan uudessa välilehdessä yhden sekunnin kuluttua."
+   },
+   "crowdCloseTimer": {
+      "message": "Tämä välilehti sulkeutuu % sekunnin kuluttua."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "Tämä välilehti sulkeutuu yhden sekunnin kuluttua."
+   },
+   "crowdDisabled": {
+      "message": "Tämä sivusto on ohitettavissa joukoitetulla ohituksella, jonka pystyt laittamaan päälle asetuksissa."
+   },
+   "crowdWait": {
+      "message": "Valitettavasti olet ensimmäinen, joka on törmännyt tähän linkkiin, mutta odottamisesi jälkeen muiden FastForward käyttäjien ei tarvitse odottaa."
+   },
+   "definitionsVersion": {
+      "message": "Bypass määritelmät"
+   },
+   "faq": {
+      "message": "Usein Kysytyt Kysymykset (UKK)"
+   },
+   "firstrunNoScript": {
+      "message": "Vaikuttaa kuitenkin siltä, että käytät NoScriptiä tai vastaavaa, jonka kanssa FastForward ei ole yhteensopiva."
+   },
+   "firstrunTitle": {
+      "message": "Kiitos, kun asensit FastForwardin!"
+   },
+   "infoFileHoster": {
+      "message": "Valitettavasti, latauspalvelin vaatii, että olet odottanut ennen kuin se antaa sinun ladata tiedostosi."
+   },
+   "infoLinkvertise": {
+      "message": "Emme saa ohittaa tätä verkkosivustoa, mutta olemme neuvotelleet heidän ärsyttävimpien vaiheidensa poistamisesta."
+   },
+   "infoOutdated": {
+      "message": "Tämä sivusto on ohitettavissa FastForwardin uudella versiolla."
+   },
+   "options": {
+      "message": "Asetukset"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Estä IP-osoitteen kerääjät, jos niitä ei voida ohittaa."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Sulje joukoitettu välilehti % sekunnin jälkeen käytyäsi siellä."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Avaa joukoitetut kohteet uudessa välilehdessä % sekuntin jälkeen."
+   },
+   "optionsCrowdBypass": {
+      "message": "Joukko Ohitus: Anna ja ota ohittamattomien lyhentäjien määränpäät."
+   },
+   "optionsEnabled": {
+      "message": "Aktivoi nettisivustojen ohitus."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Vie minut heti seurantapalveluiden kohteisiin."
+   },
+   "optionsLink": {
+      "message": "Vaihda FastForwardin asetuksia."
+   },
+   "optionsNavigationDelay": {
+      "message": "Vie minut ohitettuihin nettisivustoihin % sekunnin jälkeen."
+   },
+   "optionsTrackerBypass": {
+      "message": "Estä seurantapalvelimet (kuten bit.ly ja t.co) käyttäen Apimon.de palvelua."
+   },
+   "optionsUserscripts": {
+      "message": "Mukautetut Ohitukset"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Tämä on edistynyt ominaisuus, joka on luotu ohjelmistokehittäjille voidakseen tehdä omia ohituksiaan. Kunnes ne ovat virheettömiä ja valmiita, ne voi julkaista GitHubissa lisättäväksi FastForwardiin. Näin ne ovat saatavilla kaikille."
+   },
+   "privacyPolicy": {
+      "message": "Tietosuojakäytäntö"
+   },
+   "support": {
+      "message": "Tue FastForwardia"
+   },
+   "update": {
+      "message": "Tarkista päivitykset"
+   },
+   "updateNo": {
+      "message": "Bypass määritykset ovat ajan tasalla."
+   },
+   "updateYes": {
+      "message": "Bypass määritykset ladattu onnistuneesti."
+   },
+   "updating": {
+      "message": "Ladataan bypass määrityksiä..."
+   },
+   "version": {
+      "message": "Versio"
+   }
+}

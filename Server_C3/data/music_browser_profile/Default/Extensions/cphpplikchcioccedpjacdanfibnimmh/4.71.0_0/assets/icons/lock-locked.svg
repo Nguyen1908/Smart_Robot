@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="none" viewBox="0 0 35 35">
+  <path stroke="#172B4D" stroke-linecap="round" stroke-width="4" d="M11.5 12V9a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3"/>
+  <path stroke="#B3B9C4" stroke-linecap="round" stroke-width="2" d="M11.5 12V9a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3"/>
+  <path fill="#E9C44A" stroke="#172B4D" d="M10.5 11.5A4.5 4.5 0 0 0 6 16v10a4.5 4.5 0 0 0 4.5 4.5h14A4.5 4.5 0 0 0 29 26V16a4.5 4.5 0 0 0-4.5-4.5h-14Z"/>
+  <mask id="a" width="23" height="18" x="6" y="12" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+    <path fill="#E9C44A" d="M6.5 16a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4h-14a4 4 0 0 1-4-4V16Z"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill="#DFB043" d="M28.5 14.226V10.5s.125 1.557 0 3.726V30H5s11.5 0 18-3.5c4.206-2.265 5.272-8.298 5.5-12.274Z"/>
+  </g>
+  <path fill="#2C3E5D" fill-rule="evenodd" d="M18.48 20.515a1.667 1.667 0 1 0-1.96 0l-.854 2.985h3.667l-.853-2.985Z" clip-rule="evenodd"/>
+  <rect width="1" height="2" x="8.5" y="14" fill="#fff" fill-opacity=".42" rx=".5"/>
+  <rect width="1" height="6" x="8.5" y="17" fill="#fff" fill-opacity=".42" rx=".5"/>
+</svg>

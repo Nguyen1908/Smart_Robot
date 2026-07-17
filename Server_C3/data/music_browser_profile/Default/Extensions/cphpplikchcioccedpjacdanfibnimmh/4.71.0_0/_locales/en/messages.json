@@ -1,0 +1,42 @@
+{
+   "extensionDescription": {
+      "description": "The description of the extension, displayed in the web store.",
+      "message": "Elevate your writing with QuillBot's AI-powered productivity tools: Grammar Checker, Paraphrasing Tool, AI writer, and more!"
+   },
+   "extensionName": {
+      "description": "The name of the extension, displayed in the web store.",
+      "message": "QuillBot: AI Writing and Grammar Checker Tool"
+   },
+   "notificationLollipopUndoDescription": {
+      "description": "Description of the notification shown after AI Text Cursor is disabled",
+      "message": "To enable AI Text Cursor, go to settings to turn it back on."
+   },
+   "notificationLollipopUndoLabel": {
+      "description": "Label of the notification shown after AI Text Cursor is disabled",
+      "message": "AI Text Cursor disabled"
+   },
+   "toolboxKeyboardShortcut": {
+      "description": "Keyboard shortcut to open the toolbox",
+      "message": "or press CTRL twice"
+   },
+   "toolboxOnboardingCtaLabel": {
+      "description": "Button text for the onboarding dialog that explains the new features",
+      "message": "Start →"
+   },
+   "toolboxOnboardingHeading": {
+      "description": "Heading text for the onboarding dialog that explains the new features",
+      "message": "Let's get started with AI Text Cursor!"
+   },
+   "toolboxOnboardingLearnMore": {
+      "description": "'Learn more' link in the onboarding dialog that explains the new features",
+      "message": "Learn more"
+   },
+   "toolboxOnboardingMessage": {
+      "description": "Body text for the onboarding dialog that explains the new features",
+      "message": "You can now use our tools anywhere you write. Simply click on the text cursor to rephrase text, edit using AI, or add emojis and GIFs."
+   },
+   "toolboxTooltip": {
+      "description": "Tooltip text for the toolbox icon in the toolbox",
+      "message": "Open AI Tools"
+   }
+}

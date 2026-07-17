@@ -1,0 +1,179 @@
+{
+   "appDesc": {
+      "message": "Don't waste your time with compliance. FastForward circumvents annoying link shorteners."
+   },
+   "beforeNavigate": {
+      "message": "You're almost at your destination."
+   },
+   "beforeNavigateDestination": {
+      "message": "Your destination is $1"
+   },
+   "beforeNavigateInstant": {
+      "message": "You are being navigated to $1"
+   },
+   "beforeNavigateOptions": {
+      "message": "Do you want to be redirected instantly or in x seconds?"
+   },
+   "beforeNavigateTimer": {
+      "message": "You will be redirected automatically in $1 seconds."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "You will be redirected automatically in 1 second."
+   },
+   "blockedSubtitle": {
+      "message": "Don't want FastForward to prevent bad actors from getting your IP?"
+   },
+   "blockedTitle": {
+      "message": "FastForward prevented your IP from being logged."
+   },
+   "bypassCounter": {
+      "message": "FastForward has already bypassed % sites for you."
+   },
+   "cancel": {
+      "message": "Cancel."
+   },
+   "changelog": {
+      "message": "Changelog"
+   },
+   "contributors": {
+      "message": "Contributors"
+   },
+   "crowdBypassTempDisabled": {
+      "message": "Crowd bypass has been temporarily disabled"
+   },
+   "crowdBypassTempDisabledDescription": {
+      "message": "Crowd bypass has been temporarily disabled when FastForward was updated. Please re-enable it."
+   },
+   "crowdBypassed": {
+      "message": "You might not have to wait!"
+   },
+   "crowdBypassedInfo": {
+      "message": "Other FastForward users have already waited for you and reported that this leads to $1"
+   },
+   "crowdBypassedOptions": {
+      "message": "Do you want this to be opened in a new tab instantly or in x seconds?"
+   },
+   "crowdBypassedTimer": {
+      "message": "This will be opened in a new tab in $1 seconds."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "This will be opened in a new tab in 1 second."
+   },
+   "crowdCloseTimer": {
+      "message": "This tab will close in $1 seconds."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "This tab will close in 1 second."
+   },
+   "crowdDisabled": {
+      "message": "This website is bypassed by crowd bypass, which you can enable in the options."
+   },
+   "crowdWait": {
+      "message": "Unfortunately, you're the first to encounter this link, but after you've waited, other FastForward users will no longer have to."
+   },
+   "definitionsVersion": {
+      "message": "Bypass definitions"
+   },
+   "faq": {
+      "message": "Frequently Asked Questions (FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "However, you seem to be using NoScript or similar, which FastForward is not compatible with."
+   },
+   "firstrunTitle": {
+      "message": "Thank you for installing FastForward!"
+   },
+   "infoFileHoster": {
+      "message": "Unfortunately, the download server will ensure that you have waited before allowing you to download the file."
+   },
+   "infoLinkvertise": {
+      "message": "FastForward requires you to complete the captcha before we can bypass this site for you. after you do this, we can skip the annoying steps!"
+   },
+   "infoOutdated": {
+      "message": "This website is bypassed by a newer version of FastForward."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Block IP loggers."
+   },
+   "optionsBlockIPLoggersDescription": {
+      "message": "If FastForward can't bypass a link that will log your IP, we will block it instead. Recommended: On."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Close Crowd destination after % second(s)."
+   },
+   "optionsCrowdAutoCloseDescription": {
+      "message": "Close Crowd Bypass destination after a few seconds. Useful if most of the sites you visit have a direct download link. Recommended: Off"
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Open Crowd destinations after % second(s)."
+   },
+   "optionsCrowdAutoOpenDescription": {
+      "message": "Open Crowd Bypass destinations in a new tab rather than the current one, so you don't lose your place. Recommended: Off"
+   },
+   "optionsCrowdBypass": {
+      "message": "Crowd Bypass."
+   },
+   "optionsCrowdBypassDescription": {
+      "message": "Crowd Bypass: Use FastForward's online database of bypassed links to instantly bypass popular sites. Recommended: On."
+   },
+   "optionsEnabled": {
+      "message": "Enable website bypasses."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Bypass Trackers immediately."
+   },
+   "optionsInstantNavigationTrackersDescription": {
+      "message": "Bypass trackers immediately and automatically, instead of providing a link to the destination. Recommended: On."
+   },
+   "optionsLink": {
+      "message": "Change FastForward's options."
+   },
+   "optionsNavigationDelay": {
+      "message": "Bypass Link Shorteners after % second(s)."
+   },
+   "optionsNavigationDelayDescription": {
+      "message": "Automatically bypass link shorteners such as Adf.ly, sub2unlock.com, after a certain amount of seconds. Recommended: On, 0 seconds."
+   },
+   "optionsTrackerBypass": {
+      "message": "Bypass trackers"
+   },
+   "optionsTrackerBypassDescription": {
+      "message": "Automatically bypass trackers such as t.co and goo.gl using the Unshorten.me API. Recommended: On."
+   },
+   "optionsUserscripts": {
+      "message": "Custom Bypasses"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "This is an advanced feature for developers to create their own scripts to bypass sites. Once perfected, they can then be submitted on GitHub to be added to FastForward, so they're available to everyone."
+   },
+   "optionsWhitelist": {
+      "message": "Whitelist"
+   },
+   "optionsWhitelistDescription": {
+      "message": "A list of sites formatted as domain.tld or subdomain.domain.tld that won't be bypassed by FastForward. Seperate domains with new lines. Use * as a wildcard."
+   },
+   "privacyPolicy": {
+      "message": "Privacy Policy"
+   },
+   "support": {
+      "message": "Contribute to FastForward."
+   },
+   "tempDisableCrowdBypassButton": {
+      "message": "Temporarily disable crowd bypass"
+   },
+   "tempDisableCrowdBypassDesc": {
+      "message": "Was this not correct?"
+   },
+   "trackerBypass": {
+      "message": "Bypassing tracker..."
+   },
+   "trackerBypassedError": {
+      "message": "Oops! Something went wrong. Redirecting to the original link..."
+   },
+   "version": {
+      "message": "Version"
+   }
+}

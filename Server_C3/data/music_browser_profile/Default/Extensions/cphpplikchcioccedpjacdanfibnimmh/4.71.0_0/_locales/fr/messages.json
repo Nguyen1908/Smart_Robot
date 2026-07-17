@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "The description of the extension, displayed in the web store.",
+      "message": "Boostez vos écrits avec les outils de productivité IA QuillBot : correcteur orthographe, reformulateur, rédacteur IA, et bien plus !"
+   },
+   "extensionName": {
+      "description": "The name of the extension, displayed in the web store.",
+      "message": "QuillBot : Assistant de rédaction et correcteur d’orthographe IA"
+   }
+}

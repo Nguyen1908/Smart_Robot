@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Streamlit Configuration
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# WHY fileWatcherType = "none"?
+# ──────────────────────────────
+# Root cause chain:
+#   faster_whisper (used by SpeechService) → imports `transformers` (tokenizer)
+#   → `transformers` ends up in sys.modules
+#   → Streamlit watcher scans ALL sys.modules entries to build its watch list
+#   → calls hasattr(module, "__path__") on each transformers.models.* submodule
+#   → triggers lazy-loading of 100+ vision model modules (lightglue, sam, yolos…)
+#   → those vision models try to `import torchvision` (NOT installed here)
+#   → wall of "ModuleNotFoundError: No module named 'torchvision'" in the log
+#
+# "poll" still scans sys.modules (just uses polling instead of watchdog) → same warnings.
+# "none" disables the watcher entirely → NO sys.modules scan → NO warnings. ✅
+#
+# Trade-off: hot-reload is disabled. Restart the server manually after code changes.
+# To re-enable hot-reload (and accept the warnings): change to "poll".
+# ─────────────────────────────────────────────────────────────────────────────
+
+[server]
+# "none" = tắt hoàn toàn file watcher → không scan sys.modules → không trigger
+# lazy-load của transformers vision models → không còn torchvision warnings.
+# Trade-off: mất hot-reload khi sửa code (phải Ctrl+C và chạy lại thủ công).
+# Nếu muốn giữ hot-reload trong development: đổi sang "poll" và chấp nhận warnings.
+fileWatcherType = "none"   # "auto" | "poll" | "watchdog" | "none"
+headless = false
+
+[browser]
+gatherUsageStats = false   # Opt out of Streamlit usage telemetry
+
+[runner]
+fastReruns = true          # Faster hot-reload when source files change

@@ -1,0 +1,155 @@
+{
+   "appDesc": {
+      "message": "Non perdas o teu tempo! FastForward salta automáticamente os acortadores molestos."
+   },
+   "beforeNavigate": {
+      "message": "Xa casi estás!"
+   },
+   "beforeNavigateDestination": {
+      "message": "O teu destino é %s"
+   },
+   "beforeNavigateInstant": {
+      "message": "Estás sendo redirixido a %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Queres ser redirixido inmediatamente ou en x segundos?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Serás enviado automáticamente en % segundos."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Serás enviado automáticamente en 1 segundo."
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Non obstante, se navegas agora, detectarán FastForward."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "Xa non serás detectado dentro de % segundos."
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Xa non serás detectado dentro de 1 segundo."
+   },
+   "blockedSubtitle": {
+      "message": "Non queres que FastForward impida que a xente malvada obteña a túa IP?"
+   },
+   "blockedTitle": {
+      "message": "FastForward impediu que a túa IP se rexistrara."
+   },
+   "bypassCounter": {
+      "message": "FastForward saltou % sitios por ti."
+   },
+   "cancel": {
+      "message": "Cancelar."
+   },
+   "changelog": {
+      "message": "Historial de cambios"
+   },
+   "contributors": {
+      "message": "Colaboradores"
+   },
+   "crowdBypassed": {
+      "message": "Pode que non teñas que esperar!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Destino erróneo?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Outros usuarios de FastForward xa esperaron por ti e notificaron que dirixe a %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Queres que esto se abra nunha nova lapela inmediatamente ou en x segundos?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Será aberto nunha nova pestaña en % segundos."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Será aberto nunha nova pestaña en 1 segundo."
+   },
+   "crowdCloseTimer": {
+      "message": "Esta lapela pecharase en % segundos."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "Esta lapela pecharase en 1 segundo."
+   },
+   "crowdDisabled": {
+      "message": "O destino deste sitio web púidose compartir con outros usuarios, pero esa función está desactivada nas opcións."
+   },
+   "crowdWait": {
+      "message": "Desafortunadamente, eres a primeira persoa que encontrou este enlace, pero despois de esperar, outros usuarios de FastForward xa non o terán que facer."
+   },
+   "definitionsVersion": {
+      "message": "Definicións de saltos"
+   },
+   "faq": {
+      "message": "Preguntas Frecuentes (PF)"
+   },
+   "firstrunNoScript": {
+      "message": "Non obstante, parece que estás utilizando NoScript ou similar, coa que FastForward non é compatible."
+   },
+   "firstrunTitle": {
+      "message": "Grazas por instalar FastForward!"
+   },
+   "infoFileHoster": {
+      "message": "Desafortunadamente, o servidor de descarga asegurarase de que esperaches antes de deixarche descargar o ficheiro."
+   },
+   "infoOutdated": {
+      "message": "Este sitio web saltouse por unha nova versión de FastForward."
+   },
+   "options": {
+      "message": "Axustes"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Bloquear rexistradores de IP se non se poden saltar."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Pechar a lapela que contén o destino descuberto despois de % segundo(s) de visitalo."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Abrir os destinos que xa foron descubertos nunha nova lapela despois de % segundo(s)."
+   },
+   "optionsCrowdBypass": {
+      "message": "Crowd Bypass: Dar e tomar os destinos dos acurtadores que non se poden saltar."
+   },
+   "optionsEnabled": {
+      "message": "Activar saltos nos sitios web."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Levarme instantaneamente aos destinos dos rastreadores."
+   },
+   "optionsLink": {
+      "message": "Cambiar as opcións de FastForward."
+   },
+   "optionsNavigationDelay": {
+      "message": "Levarme ao destino despois de % segundo(s)."
+   },
+   "optionsTrackerBypass": {
+      "message": "Saltar rastreadores (como bit.ly e t.co) usando Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Saltos personalizados"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Esta é unha función avanzada para desenvolvedores para crear os seus propios scripts para saltar sitios. Unha vez mellorados, poden ser enviados a GitHub para ser engadidos a FastForward, para que estén dispoñibles para todo o mundo."
+   },
+   "privacyPolicy": {
+      "message": "Política de privacidade"
+   },
+   "support": {
+      "message": "Axudar a FastForward"
+   },
+   "update": {
+      "message": "Comprobar actualizacións"
+   },
+   "updateNo": {
+      "message": "As definicións de saltos están actualizadas."
+   },
+   "updateYes": {
+      "message": "Definicións de evasión descargadas correctamente."
+   },
+   "updating": {
+      "message": "Descargando definicións de saltos..."
+   },
+   "version": {
+      "message": "Versión"
+   }
+}

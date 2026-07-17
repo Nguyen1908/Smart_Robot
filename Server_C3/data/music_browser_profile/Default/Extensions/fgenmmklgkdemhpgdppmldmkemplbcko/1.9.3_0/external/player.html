@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+html {
+font-family: sans-serif;
+}
+
+html,body {
+margin: 0;
+overflow: hidden;
+height: 100%;
+}
+
+#player-container {
+    height: 100%;
+}
+
+body, #overlay {
+    background:#f8f8f8;
+}
+body.initialized {
+    background: transparent;
+}
+
+#overlay {
+    height: 100%;
+    color: #646464;
+    
+    user-select: none;
+}
+#play-wrapper {
+    display: grid;
+    height: 100%;
+    font-size: 1.3em;
+    
+    cursor: pointer;
+}
+
+#overlay p {
+    margin: 0.5em 0;
+}
+
+#overlay .center {
+    margin: auto;
+    text-align: center;
+}
+#play-wrapper .icon {
+    filter: grayscale(0.8) brightness(1.5);
+}
+#play-wrapper:hover .icon {
+    filter: grayscale(0.5) brightness(1.5);
+}
+
+#open-options {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    font-size: 1.3em;
+    padding: 0.3em;
+    background-color: rgb(0 0 0 / 8%);
+    border-radius: 0 0 0 5px;
+    cursor: pointer;
+}
+#open-options:hover {
+    background-color: rgb(0 0 0 / 5%);
+}
+#open-options .text {
+    margin-top: -2px; /* Alignment with icon */
+}
+#open-options .icon {
+    height: 20px;
+    width: 20px;
+    margin: 0 0.2em;
+}
+#open-options:hover {
+
+    filter: brightness(1.2);
+}
+
+</style>
+</head>
+<body>
+<div id="player-container">
+    <div id="overlay">
+        <div id="open-options">
+            <img class="icon" src="/icons/settings_646464_FILL1_wght400_GRAD0_opsz20.svg">
+            <span class="text">Options</span>
+        </div>
+        <div id="play-wrapper">
+            <div class="center">
+                <!-- img width/height attributes added to prevent content jumping -->
+                <!--<img class="icon" width="80" height="80" src="/icons/icon192.png">-->
+                <img class="icon" width="80" height="80" src="/icons/playicon600.png">
+                <p>Click to Start Flash Emulator</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/player.js"></script>
+
+</body>
+</html>

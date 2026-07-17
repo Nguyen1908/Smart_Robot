@@ -1,0 +1,52 @@
+{
+   "action": {
+      "default_popup": "html/popup.html"
+   },
+   "author": "FastForward Team",
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ipLoggerRuleset",
+         "path": "ip_logger_blocker.json"
+      }, {
+         "enabled": false,
+         "id": "trackerRuleset",
+         "path": "tracker_bypass.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://fastforward.team",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon/128.png",
+      "150": "icon/150.png",
+      "176": "icon/176.png",
+      "48": "icon/48.png",
+      "512": "icon/512.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAivtOW5whokhXN1EU0fWmJHzNepOZiFd2A8K+QdeucDthn7vEZbC8mcFwMLshoHgRV3/pqwhBY5o82fp7Gfr6ISNa4vMVcYOlatrYmJHXG+x9DTe2WTQqwcstrVM6GHw7H60MYmzXzJVHsvbdVQIhVXcPF+O24hI20F9cQXo6nEQOmqKPJEYH0IMJZrmOOpdRffJNlym7RmhPa07WUxuBh+OlThGPD9G32XDbLk9Ceh5iOAb0nalC0a8fZwXjy9ASB3j1O23DG+eBa6cD3DNux4qivhzZuQrv0iw6k+/KyEV7qIrgH0glpfCFoBaiOBZ4+cNZtUlmmT8iJWESJV7rCQIDAQAB",
+   "manifest_version": 3,
+   "name": "FastForward",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "html/options.html"
+   },
+   "permissions": [ "alarms", "storage", "tabs", "declarativeNetRequestWithHostAccess" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "0.2383",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "html/before-navigate.html", "html/blocked.html", "html/crowd-bypassed.html", "html/tracker-bypass.html", "html/options.html", "icon/48.png", "injection_script.js", "bypasses/*", "helpers/*" ]
+   } ]
+}

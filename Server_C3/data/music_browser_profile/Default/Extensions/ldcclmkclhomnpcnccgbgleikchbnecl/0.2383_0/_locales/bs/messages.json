@@ -1,0 +1,158 @@
+{
+   "appDesc": {
+      "message": "Ne gubite vrijeme na poštivanje pravila. Univerzalni Bypass zaobilazi dosadne skraćivače web stranica."
+   },
+   "beforeNavigate": {
+      "message": "Skoro ste na svom odredištu."
+   },
+   "beforeNavigateDestination": {
+      "message": "Vaše odredište je %"
+   },
+   "beforeNavigateInstant": {
+      "message": "Navigirate do %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Želite li odmah biti preusmjereni ili u x sekundi?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Automatski ćete biti preusmjereni u % sekundi."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Automatski ćete biti preusmjereni u 1 sekundi."
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Međutim, ako se sada krećete, otkrit će FastForward."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "Nećete više biti otkriveni u % sekundi."
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Nećete više biti otkriveni u 1 sekundi."
+   },
+   "blockedSubtitle": {
+      "message": "Ne želite da FastForward spreči dijeljenje Vaše IP adrese?"
+   },
+   "blockedTitle": {
+      "message": "FastForward je spriječio evidenciju Vaše IP adrese."
+   },
+   "bypassCounter": {
+      "message": "FastForward je već zaobišao % web stranica za Vas."
+   },
+   "cancel": {
+      "message": "Odustani."
+   },
+   "changelog": {
+      "message": "Changelog"
+   },
+   "contributors": {
+      "message": "Doprinioci"
+   },
+   "crowdBypassed": {
+      "message": "Možda nećete morati da čekate!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Da li je ovo tačno?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Ostali korisnici FastForward-a su već čekali za Vas i prijavili da to vodi do %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Želite li da se ovo otvori odmah u novoj kartici ili za x sekundi?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Ovo će se otvoriti u novoj kartici u % sekundi."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Ovo će se otvoriti u novoj kartici u 1 sekundi."
+   },
+   "crowdCloseTimer": {
+      "message": "Ova kartica će se zatvoriti za % sekundi/e."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "Ova kartica će se zatvoriti za 1 sekundu."
+   },
+   "crowdDisabled": {
+      "message": "Ova web stranica je zaobiđena od stane drugih korisnika, no tu opciju ste onemogućili u postavkama."
+   },
+   "crowdWait": {
+      "message": "Nažalost, Vi ste prvi koji ste se susreli sa ovom vezom, ali nakon što sačekate, drugi FastForward korisnici više neće morati."
+   },
+   "definitionsVersion": {
+      "message": "Bypass verzija:"
+   },
+   "faq": {
+      "message": "Često postavljana pitanja (ČPP)"
+   },
+   "firstrunNoScript": {
+      "message": "Međutim, čini se da koristite NoScript ili nešto slično, što nije kompatibilno sa FastForward."
+   },
+   "firstrunTitle": {
+      "message": "Hvala Vam što ste instalirali FastForward!"
+   },
+   "infoFileHoster": {
+      "message": "Nažalost, poslužitelj za preuzimanje osigurat će da pričekate prije nego Vam se omogući preuzimanje datoteke."
+   },
+   "infoLinkvertise": {
+      "message": "Nismo uspjeli zaobići ovu web stranicu ali smo uklonili većinu dosadnih koraka."
+   },
+   "infoOutdated": {
+      "message": "Ova web stranica je zaobiđena novijom verzijom FastForward-a."
+   },
+   "options": {
+      "message": "Opcije"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Blokiraj IP zapisnike ako ih nije moguće zaobići."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Zatvori karticu koja sadrži crowd-source odredište nakon % sekundi/e posjete."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Otvori crowd-sourced izvore u novoj kartici nakon % sekundi/e."
+   },
+   "optionsCrowdBypass": {
+      "message": "Prepuna zaobilaznica: Dajte i odredite odredišta nezaobilazivih skraćivača."
+   },
+   "optionsEnabled": {
+      "message": "Omogući obilaženje web stranica."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Odmah me odvedi na destinaciju trakera."
+   },
+   "optionsLink": {
+      "message": "Promijenite opcije FastForward-a."
+   },
+   "optionsNavigationDelay": {
+      "message": "Vodi me do odredišta nakon % sekundi/e."
+   },
+   "optionsTrackerBypass": {
+      "message": "Zaobiđi trakere (poput bit.ly i t.co) koristeći Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Prilagođeni obilaznici"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Ovo je napredna funkcija za programere da kreiraju vlastite skripte za zaobilaženje web stranica. Nakon što se usavrše, mogu se priložiti na GitHub kako bi se dodali u FastForward, tako da su dostupni svima."
+   },
+   "privacyPolicy": {
+      "message": "Politika privatnosti"
+   },
+   "support": {
+      "message": "Doniraj FastForward-u."
+   },
+   "update": {
+      "message": "Provjeri ima li ažuriranja"
+   },
+   "updateNo": {
+      "message": "Bypass definicije su ažurirane."
+   },
+   "updateYes": {
+      "message": "Uspješno preuzeta nova definicija Bypass-a."
+   },
+   "updating": {
+      "message": "Preuzimanje definicije Bypass-a..."
+   },
+   "version": {
+      "message": "Verzija"
+   }
+}

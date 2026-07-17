@@ -1,0 +1,125 @@
+{
+   "appDesc": {
+      "message": "Ikke kast bort tiden din på å følge krav. FastForward hopper automatisk over irriterende lenkeforkortere."
+   },
+   "beforeNavigate": {
+      "message": "Du er nesten i destinasjonen din."
+   },
+   "beforeNavigateDestination": {
+      "message": "Destinasjonen din er %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Vil du bli omdirigert øyeblikkelig eller om x sekunder?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Du blir omdirigert automatisk om % sekunder."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Du blir omdirigert automatisk i løpet av 1 sekund."
+   },
+   "blockedSubtitle": {
+      "message": "Vil du at FastForward skal stoppe dårlige folk fra å få IPen din?"
+   },
+   "blockedTitle": {
+      "message": "FastForward hindret IP-adressen din fra å bli loggført."
+   },
+   "bypassCounter": {
+      "message": "FastForward har allerede forbigått % nettsteder for deg."
+   },
+   "cancel": {
+      "message": "Avbryt."
+   },
+   "changelog": {
+      "message": "Endringslogg"
+   },
+   "crowdBypassed": {
+      "message": "Du vil kanskje ikke måtte vente!"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Var ikke dette korrekt?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Andre FastForward-brukere har allerede ventet på deg, og har meldt ifra om at dette fører til %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Vil du at dette skal åpnes i en ny fane øyeblikkelig eller om x sekunder?"
+   },
+   "crowdBypassedTimer": {
+      "message": "Dette åpnes i en ny fane om % sekunder."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Dette åpnes i en ny fane om 1 sekund."
+   },
+   "crowdDisabled": {
+      "message": "Dette nettstedet omgås av publikumsomgang, som du har deaktivert under alternativene."
+   },
+   "crowdWait": {
+      "message": "Dessverre er du den første som møter denne lenken, men etter at du har ventet, vil andre brukere av FastForward ikke lenger behøve å gjøre det."
+   },
+   "definitionsVersion": {
+      "message": "Bypass definisjoner"
+   },
+   "faq": {
+      "message": "Ofte Stilte Spørsmål (FAQ)"
+   },
+   "firstrunNoScript": {
+      "message": "Men du ser ut til å bruke NoScript eller noe lignende, som FastForward ikke er kompatibel med."
+   },
+   "firstrunTitle": {
+      "message": "Takk for at du har installert FastForward!"
+   },
+   "options": {
+      "message": "Innstillinger"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Blokker IP-loggførere dersom de ikke kan bli hoppet forbi."
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Åpne publikumsdestinasjoner i en ny fane etter % sekund(er). (0 = øyeblikkelig.)"
+   },
+   "optionsCrowdBypass": {
+      "message": "Gi og ta ankomstpunktene til upasserbare forkortere."
+   },
+   "optionsEnabled": {
+      "message": "Slå på nettside bypass."
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Ta meg til destinasjoner av trackere med en gang."
+   },
+   "optionsLink": {
+      "message": "Endre FastForward sine innstillinger."
+   },
+   "optionsNavigationDelay": {
+      "message": "Ta meg til destinasjoner etter % sekund(er). (Bruk 0 for å navigere øyeblikkelig.)"
+   },
+   "optionsTrackerBypass": {
+      "message": "Omgå for trackere (for eksempel bit.ly og t.co) ved å bruke Apimon.de."
+   },
+   "optionsUserscripts": {
+      "message": "Tilpassede forbipasserere"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Dette er en avansert funksjon for utviklere å lage sine egne skript for å omgå nettsteder. Når de er perfeksjonert, kan de deretter sendes inn på GitHub for å bli lagt til FastForward, slik at de er tilgjengelige for alle."
+   },
+   "privacyPolicy": {
+      "message": "Privatlivsretningslinjer"
+   },
+   "support": {
+      "message": "Støtt FastForward."
+   },
+   "update": {
+      "message": "Se etter oppdateringer"
+   },
+   "updateNo": {
+      "message": "Forbigående definisjoner er oppdatert."
+   },
+   "updateYes": {
+      "message": "Oppdateringsskriptet ble oppdatert!"
+   },
+   "updating": {
+      "message": "Laster ned bypass-definisjoner..."
+   },
+   "version": {
+      "message": "Versjon"
+   }
+}

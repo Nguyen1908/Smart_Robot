@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "The description of the extension, displayed in the web store.",
+      "message": "Til je schrijven naar een hoger niveau met de AI-aangedreven productiviteitstools van QuillBot: grammaticacontrole, parafraseringstool, AI-schrijver en meer!"
+   },
+   "extensionName": {
+      "description": "The name of the extension, displayed in the web store.",
+      "message": "QuillBot: AI-schrijf- en grammaticacontroletool"
+   }
+}

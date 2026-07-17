@@ -1,0 +1,97 @@
+:root {
+  // dialog
+  --qb-dialog-container-width: 320px;
+  --qb-dialog-container-height: 650px;
+  --qb-dialog-drag-handler-height: 24px;
+
+  // toolbar
+  --qb-toolbar-container-default-width: 48px;
+
+  // comp-card-base
+  --qb-comp-card-base-overflow: visible;
+  --qb-comp-card-base-background-color: transparent;
+  --qb-comp-card-base-box-shadow: none;
+
+  --qb-highlight-underline-thickness: 2px;
+  --qb-highlight-selected-underline-thickness: 2px;
+  --qb-highlight-underline-offset: 2px;
+
+  // grammar-error
+  --qb-highlight-grammar-error-underline-color: #f2a6a6;
+  --qb-highlight-grammar-error-background-color: transparent;
+
+  // grammar-error-selected
+  --qb-highlight-grammar-error-selected-underline-color: #df2020;
+  --qb-highlight-grammar-error-selected-background-color: rgba(220, 38, 38, 0.1);
+
+  // grammar-error-emphasized
+  --qb-highlight-grammar-error-emphasized-underline-color: #df2020;
+  --qb-highlight-grammar-error-emphasized-background-color: rgba(220, 38, 38, 0.1);
+
+  // spelling-error
+  --qb-highlight-spelling-error-underline-color: #f2a6a6;
+  --qb-highlight-spelling-error-background-color: transparent;
+
+  // spelling-error-selected
+  --qb-highlight-spelling-error-selected-underline-color: #df2020;
+  --qb-highlight-spelling-error-selected-background-color: rgba(220, 38, 38, 0.1);
+
+  // spelling-error-emphasized
+  --qb-highlight-spelling-error-emphasized-underline-color: #df2020;
+  --qb-highlight-spelling-error-emphasized-background-color: rgba(220, 38, 38, 0.1);
+
+  // style-error
+  --qb-highlight-style-error-underline-color: #00000033;
+  --qb-highlight-style-error-background-color: transparent;
+
+  // style-error-selected
+  --qb-highlight-style-error-selected-underline-color: #b4b4b4;
+  --qb-highlight-style-error-selected-background-color: rgba(67, 67, 67, 0.1);
+
+  // style-error-emphasized
+  --qb-highlight-style-error-emphasized-underline-color: #b4b4b4;
+  --qb-highlight-style-error-emphasized-background-color: rgba(67, 67, 67, 0.1);
+
+  // selection-paraphrase-word
+  --qb-highlight-selection-paraphrase-word-underline-color: #0042d7;
+  --qb-highlight-selection-paraphrase-word-background-color: transparent;
+
+  // selection-paraphrase-phrase
+  --qb-highlight-selection-paraphrase-phrase-underline-color: #0042d7;
+  --qb-highlight-selection-paraphrase-phrase-background-color: rgb(0, 103, 197, 0.15);
+
+  // selection-paraphrase-sentence
+  --qb-highlight-selection-paraphrase-sentence-underline-color: transparent;
+  --qb-highlight-selection-paraphrase-sentence-background-color: rgb(0, 103, 197, 0.15);
+
+  // selection-toolbox-word
+  --qb-highlight-selection-toolbox-word-underline-color: #00000033;
+  --qb-highlight-selection-toolbox-word-background-color: rgba(67, 67, 67, 0.1);
+
+  // selection-toolbox-phrase
+  --qb-highlight-selection-toolbox-phrase-underline-color: #00000033;
+  --qb-highlight-selection-toolbox-phrase-background-color: rgb(0, 103, 197, 0.15);
+
+  // selection-toolbox-sentence
+  --qb-highlight-selection-toolbox-sentence-underline-color: transparent;
+  --qb-highlight-selection-toolbox-sentence-background-color: rgb(0, 103, 197, 0.15);
+
+  // sentence-from-hover
+  --qb-highlight-sentence-from-hover-underline-color: transparent;
+  --qb-highlight-sentence-from-hover-background-color: rgba(67, 67, 67, 0.1);
+
+  // word-from-hover
+  --qb-highlight-word-from-hover-underline-color: transparent;
+  --qb-highlight-word-from-hover-background-color: rgba(67, 67, 67, 0.1);
+
+  // sentence-from-caret
+  --qb-highlight-sentence-from-caret-underline-color: #00000033;
+  --qb-highlight-sentence-from-caret-background-color: rgba(67, 67, 67, 0.1);
+
+  // word-from-caret
+  --qb-highlight-word-from-caret-underline-color: transparent;
+  --qb-highlight-word-from-caret-background-color: rgba(67, 67, 67, 0.1);
+
+  //toolbox
+  --qb-toolbox-onboarding-cta-pulse-color: rgba(23, 135, 51, 0.8);
+}

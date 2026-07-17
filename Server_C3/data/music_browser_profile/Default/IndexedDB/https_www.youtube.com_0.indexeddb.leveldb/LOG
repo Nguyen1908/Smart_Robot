@@ -1,0 +1,6 @@
+2026/03/30-00:53:32.733 6528 Reusing MANIFEST C:\Users\anhtr\Desktop\testTTS\data\music_browser_profile\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/30-00:53:32.733 6528 Recovering log #3
+2026/03/30-00:53:32.741 6528 Reusing old log C:\Users\anhtr\Desktop\testTTS\data\music_browser_profile\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2026/03/30-00:54:27.601 4a20 Level-0 table #5: started
+2026/03/30-00:54:27.623 4a20 Level-0 table #5: 2528582 bytes OK
+2026/03/30-00:54:27.625 4a20 Delete type=0 #3

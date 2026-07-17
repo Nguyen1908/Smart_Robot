@@ -1,0 +1,23 @@
+{
+   "appDesc": {
+      "message": "Vaqtingizni moslashtirish uchun bekorga ketkazmang. FastForward sizga veb manzillarni qisqartirishda ko'mak beradi."
+   },
+   "changelog": {
+      "message": "Holati"
+   },
+   "definitionsVersion": {
+      "message": "Bypass ta'riflari"
+   },
+   "firstrunNoScript": {
+      "message": "Siz FastForwardga mos bo'lmagan NoScript yoki shunga o'xshash dasturdan foydalanayotgangan o'xshaysiz."
+   },
+   "firstrunTitle": {
+      "message": "FastForwardni o'rnatganingiz uchun rahmat!"
+   },
+   "update": {
+      "message": "Yangilanishlar uchun tekshirish"
+   },
+   "version": {
+      "message": "Versiya"
+   }
+}

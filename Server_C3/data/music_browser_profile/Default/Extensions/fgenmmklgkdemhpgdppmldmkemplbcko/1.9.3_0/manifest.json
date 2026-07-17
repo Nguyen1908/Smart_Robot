@@ -1,0 +1,57 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "bg.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "https://web.archive.org/web/*", "https://*.doubleclick.net/*", "https://*.googletagservices.com/*", "https://*.pubmatic.com/*", "https://*.adnxs.com/*", "https://*.outbrain.com/*", "https://*.google.com/*", "https://robinstv.bcfc.co.uk/*", "https://sso.godaddy.com/*", "https://authentication.td.com/*", "https://*.twitch.tv/*", "https://www.tuxedocomputers.com/*", "https://*.taobao.com/*", "https://*.time4learning.com/*", "https://*.edgenuity.com/*", "https://www.chewy.com/*", "https://*.duosecurity.com/*", "https://*.tiktok.com/*" ],
+      "js": [ "detection-polyfill.js" ],
+      "match_about_blank": false,
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_start",
+      "world": "MAIN"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "https://web.archive.org/web/*", "https://*.doubleclick.net/*", "https://*.googletagservices.com/*", "https://*.pubmatic.com/*", "https://*.adnxs.com/*", "https://*.outbrain.com/*", "https://*.google.com/*", "https://robinstv.bcfc.co.uk/*", "https://sso.godaddy.com/*", "https://authentication.td.com/*", "https://*.twitch.tv/*", "https://www.tuxedocomputers.com/*", "https://*.taobao.com/*", "https://*.time4learning.com/*", "https://*.edgenuity.com/*", "https://www.chewy.com/*", "https://*.duosecurity.com/*", "https://*.tiktok.com/*" ],
+      "js": [ "cs.js" ],
+      "match_about_blank": false,
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "installed-check.js" ],
+      "matches": [ "https://modernkit.one/*" ],
+      "run_at": "document_start",
+      "world": "MAIN"
+   } ],
+   "description": "Play Flash anytime, even in 2026 and beyond, using an emulator.",
+   "externally_connectable": {
+      "matches": [ "https://modernkit.one/flash-emulator/*" ]
+   },
+   "homepage_url": "https://modernkit.one/flash-emulator/?utm_source=extension-manifest-homepage&utm_medium=extension&utm_content=extension-manifest-url",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/logo128.png",
+      "16": "icons/logo16.png",
+      "192": "icons/logo192.png",
+      "32": "icons/logo32.png",
+      "48": "icons/logo48.png",
+      "512": "icons/logo512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAipF6/cVTglheeLrnPtXiICWE/F+AT1wITKThalPG+E6APysf2fe2YtXHMNM9WhrTrlZO978To0WsPujsfkWxQ2oV6rS15wKASqJbAJBrABKZ6DXeWowQa+dKx9lMjGap1wOQfNTSpWttIZJga3zvAaA33jJwSZSROUy79JIz6zbN1WJlkEt5RK08LQdi4iCp6Y9lOHLUdQCUkdr2cTAqd4T0DpLh8JFn9Mo3IKkTZfycidTqe/eD69o21oWNH2oKBZr5i9qhBupm1mT/mi9PTgCPJmsJCg5NiyhrQqW5eoKN92qSwUEKtC1FhOB6ehWpPu8lN+jA9kn533WFjUtniwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "113",
+   "name": "Flash Player 2026",
+   "permissions": [ "storage", "declarativeNetRequestWithHostAccess", "alarms", "scripting" ],
+   "sandbox": {
+      "pages": [ "external/player.html" ]
+   },
+   "short_name": "Flash 2026",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.9.3",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "external/player-embed.html", "external/player.html", "external/upgrade.html", "external/page-bridge.html", "external/error.html", "external/error-not-found.html" ]
+   } ]
+}

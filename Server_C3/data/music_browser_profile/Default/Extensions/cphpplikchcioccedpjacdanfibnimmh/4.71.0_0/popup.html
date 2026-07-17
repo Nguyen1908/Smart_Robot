@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="UTF-8"/><link rel="stylesheet" href="assets/css/quillbot-fonts.css"/><style>@supports (hanging-punctuation: first) and (font: -apple-system-body) and
+        (-webkit-appearance: none) {
+        html,
+        body {
+          /*
+            This was added to fix a weird scrolling issue on safari, where the entire popup
+            would scroll horizontally and have a big grey section off to the right side.
+            Setting a fixed width and height on the html and body elements seems to fix it.
+          */
+          width: 360px;
+          max-height: 600px;
+          overflow-x: hidden;
+        }
+      }
+      ::-webkit-scrollbar {
+        width: 4px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #c2c2c2cc;
+        border: 0px;
+        border-radius: 2px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #c2c2c2;
+      }</style><script defer="defer" src="chrome-extension://cphpplikchcioccedpjacdanfibnimmh/popup.js"></script></head><body><div id="qb-popup"></div></body></html>
